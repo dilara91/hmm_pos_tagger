@@ -1,7 +1,7 @@
 # hmm_pos_tagger
 cmpe 561 hw #2
 
-This code is written in Python 2.7
+This code is written in Python 2.7 and tested in pythonanywhere.com
 
 Download and put .py files in the same folder.
 
@@ -12,9 +12,9 @@ The output file created by the program is in the format "output"+tagset_name+".t
 Sample = 
 
 python hmm\_main.py \\
-.\metu\_sabanci\_cmpe\_561\train\turkish\_metu\_sabanci\_train.conll --cpostag \\
-.\metu\_sabanci\_cmpe\_561\test\turkish\_metu\_sabanci\_test\_blind.conll output--cpostag.txt \\
-.\metu\_sabanci\_cmpe\_561\test\turkish\_metu\_sabanci\_test\_gold.conll  \\
+./metu\_sabanci\_cmpe\_561/train/turkish\_metu\_sabanci\_train.conll --cpostag \\
+./metu\_sabanci\_cmpe\_561/test/turkish\_metu\_sabanci\_test\_blind.conll output--cpostag.txt \\
+./metu\_sabanci\_cmpe\_561/test/turkish\_metu\_sabanci\_test\_gold.conll  \\
 
 
 
