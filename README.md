@@ -9,12 +9,15 @@ To use the program user need to call the hmm\_main.py with five arguments; path 
 
 The output file created by the program is in the format "output"+tagset_name+".txt" so for the --cpostag it is output--cpostag.txt
 
+There is no need to install external libraries to run this program.
+
+
 Sample = 
 
-python hmm\_main.py \\
-./metu\_sabanci\_cmpe\_561/train/turkish\_metu\_sabanci\_train.conll --cpostag \\
-./metu\_sabanci\_cmpe\_561/test/turkish\_metu\_sabanci\_test\_blind.conll output--cpostag.txt \\
-./metu\_sabanci\_cmpe\_561/test/turkish\_metu\_sabanci\_test\_gold.conll  \\
+python hmm\_main.py   
+./metu\_sabanci\_cmpe\_561/train/turkish\_metu\_sabanci\_train.conll --cpostag   
+./metu\_sabanci\_cmpe\_561/test/turkish\_metu\_sabanci\_test\_blind.conll output--cpostag.txt   
+./metu\_sabanci\_cmpe\_561/test/turkish\_metu\_sabanci\_test\_gold.conll    
 
 
 
