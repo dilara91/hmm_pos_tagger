@@ -26,6 +26,11 @@ def main(train_file = trainf,tagStyle = ts,test_file = testf):
 	else:
 		format = 4
 	
+	filename = os.path.join('.', 'output'+tagStyle+ ".txt")	
+	try:
+		os.remove(filename)
+	except:
+		none
 	trained_hmm = hmm_train.main(train_file,tagStyle)
 	transition = trained_hmm['tr']
 	emission = trained_hmm['e']
